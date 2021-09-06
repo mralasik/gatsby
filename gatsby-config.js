@@ -7,7 +7,7 @@ module.exports = {
     {
       resolve: "gatsby-source-wordpress",
       options: {
-        url: "aiu.com",
+        url: "http://aiu.local/graphql",
       },
     },
     "gatsby-plugin-styled-components",
@@ -16,7 +16,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "",
+        trackingId: "1",
       },
     },
     "gatsby-plugin-react-helmet",
