@@ -7,7 +7,7 @@ module.exports = {
     {
       resolve: "gatsby-source-wordpress",
       options: {
-        url: "http://aiu.local/graphql",
+        url: "https://korobovamarketing.ru/graphql",
       },
     },
     "gatsby-plugin-styled-components",
